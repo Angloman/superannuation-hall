@@ -1,1 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Superannuation Hall | University of Cape Coast</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<!-- ===== SIDEBAR ===== -->
+<aside class="sidebar" id="sidebar">
+  <div class="sidebar-header">
+    <div class="logo-circle">SH</div>
+    <div>
+      <h2>Superannuation</h2>
+      <p>Hall • UCC</p>
+    </div>
+  </div>
+
+  <nav class="sidebar-nav">
+    <a href="#home" class="nav-link active"><i class="fa-solid fa-house"></i> Home</a>
+    <a href="#announcements" class="nav-link"><i class="fa-solid fa-bullhorn"></i> Announcements</a>
+    <a href="#rooms" class="nav-link"><i class="fa-solid fa-door-open"></i> Rooms</a>
+    <a href="#complaints" class="nav-link"><i class="fa-solid fa-triangle-exclamation"></i> Complaints</a>
+    <a href="#chat" class="nav-link"><i class="fa-solid fa-comments"></i> Chat Group</a>
+    <a href="#polls" class="nav-link"><i class="fa-solid fa-square-poll-vertical"></i> Polls & Forms</a>
+    <a href="#ads" class="nav-link"><i class="fa-solid fa-rectangle-ad"></i> Ads & Sponsors</a>
+    <a href="#workers" class="nav-link"><i class="fa-solid fa-people-carry-box"></i> Workers</a>
+    <a href="#management" class="nav-link"><i class="fa-solid fa-user-shield"></i> Management</a>
+  </nav>
+
+  <div class="sidebar-footer">
+    <a href="#login" class="btn-login"><i class="fa-solid fa-right-to-bracket"></i> Login</a>
+  </div>
+</aside>
+
+<!-- ===== MAIN AREA ===== -->
+<div class="main-wrapper">
+
+  <!-- TOP BAR -->
+  <header class="topbar">
+    <button class="menu-toggle" id="menuToggle"><i class="fa-solid fa-bars"></i></button>
+    <h1 class="page-title">Home</h1>
+    <div class="topbar-actions">
+      <button class="icon-btn"><i class="fa-regular fa-bell"></i></button>
+      <div class="user-avatar">S</div>
+    </div>
+  </header>
+
+  <!-- PAGE CONTENT -->
+  <main class="content">
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="hero-text">
+        <span class="badge">University of Cape Coast</span>
+        <h2>Welcome to <span>Superannuation Hall</span></h2>
+        <p>Your home of excellence, unity, and academic distinction. Stay updated, lodge complaints, and connect with the hall community.</p>
+        <div class="hero-buttons">
+          <a href="#announcements" class="btn-primary"><i class="fa-solid fa-bullhorn"></i> Latest Announcements</a>
+          <a href="#complaints" class="btn-ghost"><i class="fa-solid fa-pen-to-square"></i> Lodge a Complaint</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <i class="fa-solid fa-building-columns"></i>
+        <h3>Superannuation Hall</h3>
+        <p>Est. UCC • Cape Coast, Ghana</p>
+      </div>
+    </section>
+
+    <!-- QUICK STATS -->
+    <section class="stats">
+      <div class="stat-card">
+        <i class="fa-solid fa-users"></i>
+        <h4>1,000+</h4>
+        <p>Students</p>
+      </div>
+      <div class="stat-card">
+        <i class="fa-solid fa-door-closed"></i>
+        <h4>200+</h4>
+        <p>Rooms</p>
+      </div>
+      <div class="stat-card">
+        <i class="fa-solid fa-bullhorn"></i>
+        <h4>24/7</h4>
+        <p>Announcements</p>
+      </div>
+      <div class="stat-card">
+        <i class="fa-solid fa-shield-halved"></i>
+        <h4>Secure</h4>
+        <p>Login System</p>
+      </div>
+    </section>
+
+    <!-- ANNOUNCEMENTS -->
+    <section class="panel" id="announcements">
+      <div class="panel-head">
+        <h3><i class="fa-solid fa-bullhorn"></i> Announcements</h3>
+        <a href="#" class="link">View All</a>
+      </div>
+      <div class="announcement">
+        <div class="announcement-dot"></div>
+        <div>
+          <h4>Hall Week Coming Soon</h4>
+          <p>Get ready for Superannuation Hall Week — activities and schedule to be released.</p>
+          <span class="time">2 hours ago</span>
+        </div>
+      </div>
+      <div class="announcement">
+        <div class="announcement-dot yellow"></div>
+        <div>
+          <h4>Water Maintenance</h4>
+          <p>Water supply will be interrupted on Saturday from 8am to 12pm for tank cleaning.</p>
+          <span class="time">Yesterday</span>
+        </div>
+      </div>
+      <div class="announcement">
+        <div class="announcement-dot green"></div>
+        <div>
+          <h4>Room Inspection</h4>
+          <p>Porters will conduct room inspections next week. Please keep your rooms tidy.</p>
+          <span class="time">3 days ago</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- TWO COLUMN GRID -->
+    <div class="grid-2">
+
+      <!-- ROOMS SNAPSHOT -->
+      <section class="panel" id="rooms">
+        <div class="panel-head">
+          <h3><i class="fa-solid fa-door-open"></i> Room Status</h3>
+          <a href="#" class="link">Manage</a>
+        </div>
+        <div class="room-item">
+          <div>
+            <h4>Room A-101</h4>
+            <p>4 students • <span class="status ok">OK</span></p>
+          </div>
+          <i class="fa-solid fa-circle-check ok-icon"></i>
+        </div>
+        <div class="room-item">
+          <div>
+            <h4>Room A-102</h4>
+            <p>3 students • <span class="status warn">Sink Fault</span></p>
+          </div>
+          <i class="fa-solid fa-triangle-exclamation warn-icon"></i>
+        </div>
+        <div class="room-item">
+          <div>
+            <h4>Room B-205</h4>
+            <p>2 students • <span class="status danger">Broken Window</span></p>
+          </div>
+          <i class="fa-solid fa-circle-exclamation danger-icon"></i>
+        </div>
+      </section>
+
+      <!-- COMPLAINTS -->
+      <section class="panel" id="complaints">
+        <div class="panel-head">
+          <h3><i class="fa-solid fa-triangle-exclamation"></i> Lodge a Complaint</h3>
+        </div>
+        <form class="form">
+          <input type="text" placeholder="Your Name" required>
+          <input type="text" placeholder="Room Number (e.g., A-101)" required>
+          <select required>
+            <option value="">Select Category</option>
+            <option>Plumbing</option>
+            <option>Electrical</option>
+            <option>Furniture</option>
+            <option>Cleanliness</option>
+            <option>Other</option>
+          </select>
+          <textarea placeholder="Describe the issue..." rows="3" required></textarea>
+          <button type="submit" class="btn-primary full"><i class="fa-solid fa-paper-plane"></i> Submit Complaint</button>
+        </form>
+      </section>
+
+    </div>
+
+    <!-- CHAT, POLLS, ADS -->
+    <div class="grid-2">
+
+      <section class="panel" id="chat">
+        <div class="panel-head">
+          <h3><i class="fa-solid fa-comments"></i> Hall Chat Group</h3>
+          <span class="status ok">Online</span>
+        </div>
+        <p class="muted">Join the official Superannuation Hall chat for live discussions.</p>
+        <a href="#" class="btn-primary full"><i class="fa-brands fa-whatsapp"></i> Open Chat Group</a>
+      </section>
+
+      <section class="panel" id="polls">
+        <div class="panel-head">
+          <h3><i class="fa-solid fa-square-poll-vertical"></i> Active Poll</h3>
+        </div>
+        <p class="muted">Should the hall organize a sports gala this semester?</p>
+        <div class="poll-option"><span>Yes, definitely</span><span>62%</span></div>
+        <div class="poll-bar"><div style="width:62%"></div></div>
+        <div class="poll-option"><span>No, not now</span><span>38%</span></div>
+        <div class="poll-bar"><div style="width:38%"></div></div>
+      </section>
+
+    </div>
+
+    <!-- ADS -->
+    <section class="panel" id="ads">
+      <div class="panel-head">
+        <h3><i class="fa-solid fa-rectangle-ad"></i> Sponsored Ads & Campaigns</h3>
+      </div>
+      <div class="ads-grid">
+        <div class="ad-card">
+          <i class="fa-solid fa-store"></i>
+          <h4>Campus Mart</h4>
+          <p>Student discounts every weekend.</p>
+        </div>
+        <div class="ad-card">
+          <i class="fa-solid fa-mobile-screen"></i>
+          <h4>MTN Data Deals</h4>
+          <p>Buy 5GB, get 2GB free.</p>
+        </div>
+        <div class="ad-card">
+          <i class="fa-solid fa-book"></i>
+          <h4>UCC Bookshop</h4>
+          <p>Stationery at student prices.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>© 2025 Superannuation Hall • University of Cape Coast • Built with 💙💛</p>
+  </footer>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
